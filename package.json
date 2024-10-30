@@ -1,0 +1,13 @@
+{
+  "name": "web-test-recorder-extension",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "package": "zip -r web-test-recorder.zip manifest.json popup.html popup.js background.js content.js icons/* privacy-policy.html"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8"
+  }
+}

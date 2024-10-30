@@ -1,0 +1,15 @@
+{
+  "videoPath": "artifacts/recordings",
+  "videoOptions": {
+    "singleFile": true,
+    "failedOnly": false,
+    "pathPattern": "${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.mp4"
+  },
+  "videoEncodingOptions": {
+    "r": 60,
+    "aspect": "16:9"
+  },
+  "developmentMode": true,
+  "debugOnFail": true,
+  "debugMode": true
+}
